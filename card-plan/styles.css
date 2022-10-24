@@ -1,0 +1,65 @@
+:root{
+  --first-color: rgb(196, 114, 14);
+  --secondary-color: rgb(20, 104, 100);
+  --last-color: rgb(19, 81, 19);
+}
+
+.plan{
+  display: flex;
+  width: 50vw;
+  height: 65vh;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+margin:80px auto;
+}
+
+.card{
+  padding: 20px;
+color: white;
+}
+.card__body{
+word-spacing: 3px;
+}
+.card-one{
+  background-color: var(--first-color);
+}
+
+.card-two{
+  background-color: var(--secondary-color);
+}
+
+.card-three{
+  background-color: var(--last-color);
+}
+.button{
+  background-color: white;
+  border: 2px solid white ;
+  border-radius: 25px;
+  width: 90px;
+  height: 30px;
+margin-top: 80px ;
+font-size: 12px;
+}
+.button-one{
+  color:var(--first-color);
+}
+.button-two{
+  color:var(--secondary-color);
+}
+.button-three{
+  color: var(--last-color);
+}
+.card__header{
+  margin: 15px auto;
+}
+.link{
+margin:auto 520px;
+
+}
+.grid{
+width: 50px;
+border-radius: 25px;
+border: 3px solid whitesmoke;
+}
