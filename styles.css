@@ -1,0 +1,33 @@
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 500px;
+  }
+  
+  .intro, .about-me{
+    display: block;
+    text-align: center;
+  }
+  
+  .more{
+    background: gray;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .nav-list{
+    list-style: none;
+   display: flex;
+    padding: 15px;
+   justify-content: space-around;
+    background-color: #666;
+   opacity: 1;
+  }
+  .nav_item>a{
+    color: white;
+  }
+  
+  
+  
